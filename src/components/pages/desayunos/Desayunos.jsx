@@ -1,4 +1,4 @@
-import Footer from '../footer/Footer';
+import Footer from "../footer/Footer"
 import NavBarPage from "../navbar/NavBarPage";
 
 import CarruselDesayunos from './CarruselDesayunos';
