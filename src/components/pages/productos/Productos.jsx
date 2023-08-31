@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import BotonesProductos from "./BotonesProductos"
 import BannerProductos from "./BannerProductos"
 
-import Footer from "../footer/Footer"
+import Footer from "../../pages/footer/Footer"
 
 import { Link } from "react-router-dom"
 import NavBarPage from "../navbar/NavBarPage";

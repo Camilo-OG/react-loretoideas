@@ -2,7 +2,8 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import './Inicio.css'
-import Footer from "../footer/Footer";
+import Footer from "../../pages/footer/Footer"
+
 
 import NavBarPage from "../navbar/NavBarPage";
 
