@@ -1,6 +1,6 @@
 import CarruselNosotros1 from "./CarruselNosotros1";
 import CarruselNosotros2 from "./CarruselNosotros2";
-import Footer from "../../pages/footer/Footer"
+import Footer from "../../../components/pages/footer/Footer"
 
 
 import NavBarPage from "../../pages/navbar/NavBarPage";
