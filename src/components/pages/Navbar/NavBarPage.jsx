@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -10,7 +10,7 @@ import LoginModal from '../../login/LoginModal';
 function NavBarPage() {
   const [showLogin, setShowLogin] = useState(false);
   const [showCarrito, setShowCarrito] = useState(false);
-  const [carrito, setCarrito] = useState([]); // Estado del carrito
+  
 
   const handleLogin = () => showLogin ? setShowLogin(false) : setShowLogin(true);
   const handleCarrito = () => showCarrito ? setShowCarrito(false) : setShowCarrito(true);
