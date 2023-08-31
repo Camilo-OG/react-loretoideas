@@ -6,7 +6,7 @@ import BannerProductos from "./BannerProductos"
 import Footer from "../../pages/footer/Footer"
 
 import { Link } from "react-router-dom"
-import NavBarPage from "../navbar/NavBarPage";
+import NavBarPage from "../../pages/navbar/NavBarPage";
 
 function Productos () {
   return (

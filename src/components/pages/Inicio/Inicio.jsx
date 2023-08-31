@@ -5,7 +5,7 @@ import './Inicio.css'
 import Footer from "../../pages/footer/Footer"
 
 
-import NavBarPage from "../navbar/NavBarPage";
+import NavBarPage from "../../pages/navbar/NavBarPage";
 
 import { Link } from "react-router-dom";
 import CarruselBanner from "./CarruselBanner";
