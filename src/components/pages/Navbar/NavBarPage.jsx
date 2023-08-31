@@ -19,9 +19,7 @@ function NavBarPage() {
   //   backgroundColor: '#B8226A',
   // };
 
-const agregarAlCarrito = (producto) => {
-    setCarrito([...carrito, producto]); // Agregar producto al carrito
-  };
+
 
   return (
     <>
