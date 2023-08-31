@@ -3,7 +3,7 @@ import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import './Inicio.css'
 import Footer from "../Footer/Footer";
-import NavBarPage from "../navbar/NavBarPage";
+import NavBarPage from "../Navbar/NavBarPage";
 import { Link } from "react-router-dom";
 import CarruselBanner from "./CarruselBanner";
 import DarkVariantExample from "./Carrusel-inicio";
