@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+:root {
+  /* Variables de colores */
+  --color-principal: #b8226a;
+  --color-segundo: #f8e5df;
+  --color-tercero: #ffa041;
+  --color-text: #4b102d;
+  /* Variables de tamaño de texto */
+  --texto-h1: 48px;
+  --texto-h2: 30px;
+  --texto-h3: 15px;
+  --texto-h4: 10px;
+  --texto-parrafos: 18px;
+  --texto-btn: 24px;
+}
+
+.superContainer {
+  font-family: "Katibeh", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 0px;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.containerLogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0%;
+}
+
+.sideA,
+.sideB {
+  flex: 1;
+  padding: 30px;
+}
+
+.sideA {
+  background-color: #ffffff;
+  border-radius: 10px 0 0 10px;
+  background: rgb(161, 0, 75);
+  background: linear-gradient(
+    180deg,
+    rgba(161, 0, 75, 1) 60%,
+    rgba(161, 0, 78, 1) 100%
+  );
+}
+
+.sideB {
+  background-color: #f0f0f0;
+  border-radius: 0 10px 10px 0;
+}
+
+.titulos-login {
+  text-align: center;
+  color: #ffffff;
+}
+
+.parrafos-login {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.input-buton {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  color: #ffffff;
+}
+
+.link-login {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button-login {
+  border-radius: 25px;
+  border-color: white;
+  background: rgb(161, 0, 75);
+  background: linear-gradient(
+    180deg,
+    rgba(161, 0, 75, 1) 60%,
+    rgba(161, 0, 78, 1) 100%
+  );
+}
+
+.input-login {
+  color: #000000;
+}
+
+.sideB--header h3 {
+  color: rgb(0, 0, 0);
+}
+
+.sideB h3 {
+  color: #000000;
+}
+
+.sideB p {
+  color: #000000;
+}
+.text-requerido {
+  color: var(--color-tercero);
+}
+
+.error_bg{
+  background: linear-gradient(180deg, rgb(252, 57, 135) 0%, rgb(78, 42, 57) 120%);
+  border-radius: 0.2rem;
+  padding: 3%;
+  color: #f0f0f0;
+  font-size: 1.1rem;
+}
+
+/* Nuevos estilos para la vista responsive */
+@media (max-width: 550px) {
+  .containerLogin {
+    flex-direction: column;
+    height: 250px;
+    border-top: 10p;
+  }
+  .sideA {
+    border-radius: 10px 10px 00px 00px;
+  }
+}

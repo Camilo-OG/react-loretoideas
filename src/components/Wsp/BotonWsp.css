@@ -1,0 +1,45 @@
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: rgb(70,226,111);
+    background: linear-gradient(94deg, rgba(70,226,111,1) 0%, rgba(111,158,47,1) 65%);      border-radius: 50%; /* Esto hace que el botón sea redondo */
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.534);
+    bottom: 18vh;
+
+  }
+  
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-float img {
+    width: 50%;
+    height: auto;
+
+  }
+  @media (max-width: 768px) {
+    .whatsapp-float {
+      right: 15px;
+    }
+}
+@media (min-width: 768px) {
+  .whatsapp-float {
+    width: 80px;
+    height: 80px;
+
+  }
+}
+@media (min-width: 1920px) {
+
+    .whatsapp-float {
+      width: 120px;
+      height: 120px;
+    }
+}

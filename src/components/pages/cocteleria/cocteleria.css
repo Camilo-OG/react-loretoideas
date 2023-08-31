@@ -1,0 +1,89 @@
+.carruselCocteleria{
+  height: 500px;
+
+}
+.text {
+  color: #4B102D;
+  }
+.parrafoCocteleria{
+  text-align: center;
+  font-family: 'Hahmlet', serif;  
+  color: #4B102D;
+  margin-top: 0px;
+  margin-bottom: 0rem;
+}
+.cocteleria{
+  text-align: center;
+  color: #4B102D;
+  font-family: 'Italianno' ;
+} 
+
+
+@media (max-width: 768px) {
+  
+
+    .parrafoCocteleria{
+    font-size: 2.5vh;
+    text-size-adjust: 100% ;
+    line-height: 3vh;
+  }
+      
+  .cocteleria{
+
+    text-size-adjust: 100% ;
+    font-size: 60px;
+    line-height: 57.6px;
+    padding-top: 50px;    
+  } 
+
+  .carruselCocteleria{
+    height: 200px;
+
+  }
+  
+  
+}
+@media (min-width: 768px) {
+
+    .parrafoCocteleria{
+    font-size: 4.5vh;
+    text-size-adjust: 100% ;
+    width: 100%;
+    line-height: 57.6px;
+
+  }   
+  .cocteleria{
+
+    text-size-adjust: 100% ;
+    font-size: 10vh;
+    padding-top: 70px;
+    padding-bottom: 20px;
+
+  } 
+  .carruselCocteleria{
+    height: 500px;
+
+  }
+}
+@media (min-width: 2560px) {
+
+  
+
+    .parrafoCocteleria{
+    font-size: 4rem;
+    text-size-adjust: 100% ;
+    line-height: 5vh;
+    
+  }
+      
+  .cocteleria{
+    text-size-adjust: 100% ;
+    font-size: 15rem;
+    padding-top: 50px;    
+  } 
+  .carruselCocteleria{
+    height: 800px;
+
+  }
+  
+}

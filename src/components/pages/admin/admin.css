@@ -1,0 +1,221 @@
+:root{
+    --color-principal: #B8226A;
+    --color-segundo: #F8E5DF;
+    --color-tercero: #FFA041;
+    --color-text:#4B102D;
+    --texto-h1: 48px;
+    --texto-h2: 30px;
+    --texto-h3:15px;
+    --texto-h4: 10px;
+    --texto-parrafos:18px;
+    --texto-btn:24px
+  }
+
+@media (max-width: 768px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .fondo-admin{
+        background-color: #f3e4ee;
+
+    }
+    
+    .container-admin {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 84vh;
+        
+    }
+    .funcionesAdmin{
+        display: none;
+        visibility: hidden;
+        height: 800px;
+    }
+    
+    .box {
+        flex: 1 1 300px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .img-admin {
+        max-width: 15%;
+        max-height: 15%;
+        margin-right: 5%;
+    }
+    
+    
+    
+    #Salir {
+        background-color: #b8226a; /* Color de fondo para el section "Salir X" */
+        padding: 1%; /* Agregamos un relleno para dar espacio al contenido */
+        text-align: center; /* Centramos el contenido dentro del section */
+        color: #fff; /* Color del texto dentro del section "Salir X" */
+        font-size: 2em;
+        text-size-adjust: 100% ;
+    
+    }
+    
+    #Administrador {
+        background-color: #b8226a; /* Color de fondo para el section "Administrador" */
+        text-align: center; /* Centramos el contenido dentro del section */
+        color: #a53c3c; /* Color del texto dentro del section "Salir X" */
+        font-size: 2em;
+        text-size-adjust: 100% ;
+    
+    } 
+    .texto-admin {
+        flex: 1 1 300px;
+        margin: 10px;
+        padding: 10px;
+        border: 5px dotted #b8226a; /* Border punteado con color #c59898 */
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        max-height: 15%;
+    
+    }
+    .titulo-admin {
+        font-size: 2vh;
+        margin: auto;
+    
+    }
+    .boton-admin{
+        border: 0;
+        background-color: transparent;
+        
+        
+    }
+    .boton-admin:hover{
+        background-color: transparent;
+    
+        .titulo-admin{
+            font-size: 3vh;
+            margin: auto;
+        }
+        .img-admin {
+            max-width: 17%;
+            max-height: 17%;
+        }
+    }
+
+}
+@media (min-width: 768px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+
+
+    }
+    .fondo-admin{
+        background-image: url('/img/pastelitos-nuevo.png');
+        z-index: 1000;
+
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch
+    }
+    .Contenedor-admin-general{
+        display: flex;
+        flex-direction: row;
+        max-height: 85.5vh;
+        min-height: 85.5vh;
+    }
+    .container-admin {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 60vh;
+        max-height: 1000px;
+        background-color: transparent;
+        border-right: 6px dotted #b8226a;
+    }
+    
+    .funcionesAdmin{
+        max-height: 1000px;
+        width: 100%;
+    }
+    .contenedorModalAdmin{
+        display: none;
+        visibility: hidden;
+    }
+    
+   
+    
+    .box {
+        flex: 1 1 300px;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+    }
+    
+    .img-admin {
+        max-width: 70%;
+        max-height: 70%;
+        margin-right: 1%;
+    }
+    #Salir {
+        background-color: #b8226a; /* Color de fondo para el section "Salir X" */
+        padding: 1%; /* Agregamos un relleno para dar espacio al contenido */
+        text-align: center; /* Centramos el contenido dentro del section */
+        color: #fff; /* Color del texto dentro del section "Salir X" */
+        font-size: 2em;
+        text-size-adjust: 100% ;
+    
+    }
+    
+    #Administrador {
+        background-color: #b8226a; /* Color de fondo para el section "Administrador" */
+        padding: 1%; /* Agregamos un relleno para dar espacio al contenido */
+        text-align: center; /* Centramos el contenido dentro del section */
+        color: #ffffff; /* Color del texto dentro del section "Salir X" */
+        font-size: 2em;
+        text-size-adjust: 100% ;
+    
+    } 
+    .texto-admin {
+        flex: 1 1 300px;
+        margin: 10px;
+        padding: 10px;
+        border: 5px dotted #b8226a; /* Border punteado con color #c59898 */
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        height: 100px;
+        max-height: 15%;
+    
+    }
+    .titulo-admin {
+        font-size: 2vh;
+        font-weight: 600;
+        margin: auto;
+        color: var(--color-text);
+    
+    }
+    .boton-admin{
+        border: 0;
+        background-color: transparent;
+    }
+    .boton-admin:hover{
+    
+        .titulo-admin{
+            font-size: 3vh;
+            margin: auto;
+        }
+        .img-admin {
+            max-width: 75%;
+            max-height: 75%;
+        }
+    }
+    
+}

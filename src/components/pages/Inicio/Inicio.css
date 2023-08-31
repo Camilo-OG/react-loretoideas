@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno');
+
+.delivery{
+  height: auto;
+  width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+  
+  .carrusel-inicio {
+    width: 100vw;
+    height: auto;
+  }
+  .caja-texto-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:#4B102D ;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    font-family: 'Hahmlet', serif;
+    font-size: 4vw;
+    height: fit-content;
+    line-height:1.8;
+  }
+ 
+
+ 
+  .caja-texto {
+    display: none;
+    visibility: hidden;
+  }
+  .navbar{
+    background-color:#B8226A ;
+  }
+  .contenedor-principal-texto{
+    padding: 0;
+  }
+  
+  .botones-inicio{
+    height: 55px;
+    margin: 10px 0 5px 0;
+    width: 100%;
+    padding-top: 30px;
+
+  }
+  .contendor-boton{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+    margin: auto;
+    align-items: center;
+    background-image: url("img/kuchenmanzana.jpg");
+    background-position-x: center;
+    background-size: 95%;
+    background-position-y: 38%;
+    box-shadow: 5px 5px 10px #555;
+  }
+
+  .contendor-boton2{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+    margin: auto;
+    align-items: center;
+    background-image: url("img/desayuno.jpg");
+    background-position-x: center;
+    background-size: 90%;
+    background-position-y: 38%;
+    box-shadow: 5px 5px 10px #555;
+
+  }
+
+  .contendor-boton3{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+    margin: auto;
+    align-items: center;
+    background-image: url("img/cocteleria.jpg");
+    background-position-x: center;
+    background-size: 95%;
+    background-position-y: 38%;
+    box-shadow: 5px 5px 10px #555;
+
+  }
+
+
+  .texto-botones-inicio{
+    margin: auto;
+  }
+  .titulo-boton{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Italianno';
+    font-weight: 500;
+    color: #4B102D;
+    margin: 0;
+    text-decoration: none;
+  }
+  .titulo-boton:hover{
+    color: #FFA041;
+  }
+  .contenedor-texto{
+    height: 45px;
+    text-align: center;
+    padding-top: 22px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+    visibility: hidden;
+  }
+  .inicio-fondo{
+    background-image: url('img/pastelitos-inicio.png');
+background-repeat: repeat;
+
+}
+
+  
+
+}
+
+@media (min-width: 768px) {
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  .carrusel-inicio {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  
+  .caja-texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:#4B102D ;
+    padding: 250px 250px 250px 250px;
+    font-family: 'Hahmlet', serif;
+    font-size: 35px;
+    font-weight: 500;
+    height: 200px;
+    line-height:1.8;
+  }
+  .caja-texto-mobile{
+    display: none;
+    visibility: hidden;
+  }
+  .navbar{
+    background-color:#B8226A ;
+  }
+  .contenedor-principal-texto{
+    
+    padding: 0;
+  }
+ 
+  .botones-inicio{
+    height: 100px;
+    margin: 50px 0 5px 0;
+  }
+  .contendor-boton{
+    display: flex;
+    border-radius: 150px;
+    height: 210px;
+    width: 210px;
+    margin:  auto;
+    background-image: url("img/kuchenmanzana.jpg");
+    background-position-x: center;
+    background-size: 95%;
+    background-position-y: 38%;
+    box-shadow: 5px 5px 10px #555;
+
+    
+}
+
+.contendor-boton2{
+  display: flex;
+  justify-content: center;
+  border-radius: 150px;
+  height: 210px;
+  width: 210px;
+  margin:  auto;
+  align-items: center;
+  background-image: url("img/desayuno.jpg");
+background-position-x: center;
+background-size: 100%;
+background-size: 95%;
+background-position-y: 38%;
+box-shadow: 5px 5px 10px #555;
+
+}
+.contendor-boton3{
+  display: flex;
+  justify-content: center;
+  border-radius: 150px;
+  height: 210px;
+  width: 210px;
+  margin:  auto;
+  align-items: center;
+  background-image: url("img/cocteleria.jpg");
+background-position-x: center;
+background-size: 100%;
+box-shadow: 5px 5px 10px #555;
+
+}
+
+  .texto-botones-inicio{
+    margin: auto;
+  }
+  .titulo-boton{
+    font-size: 7vh;
+    text-align: center;
+    font-family: 'Italianno';
+    font-weight: 500;
+    color: #4B102D;
+    text-decoration: none;
+  }
+  .titulo-boton:hover{
+    color: #FFA041;
+  }
+  .contenedor-texto{
+    height: 60px;
+    text-align: center;
+    margin: 120px 0 0 0;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+    visibility: hidden;
+  }
+  .inicio-fondo{
+  
+    background-image: url('img/pastelitos-inicio.png');
+background-repeat: repeat;
+  }
+}

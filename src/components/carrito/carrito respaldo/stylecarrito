@@ -1,0 +1,342 @@
+
+
+:root {
+    /* Variables de colores */
+    --color-principal: #B8226A;
+    --color-segundo: #F8E5DF;
+    --color-tercero: #FFA041;
+    --color-text: #4B102D;
+    /* Variables de tamaño de texto */
+    --texto-h1: 48px;
+    --texto-h2: 30px;
+    --texto-h3: 15px;
+    --texto-h4: 10px;
+    --texto-parrafos: 18px;
+    --texto-btn: 24px;
+  }
+  
+  /* Clases para el carrito */
+  .contenedor-carrito{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    padding: 10px;
+   /*  align-items: center; */ /* Centra verticalmente el contenido */
+    height: 100vh; /* Establece la altura del contenedor principal al 100% del viewport */
+  }
+  
+  .cart-contenedor {
+    width: 100%; /* Ajusta el ancho del carrito al 100% */
+    height: 75%;
+    max-width: 500px;
+    padding: 0px;  /* 20px normal */
+    border: 0px solid #ddd;
+    border-radius: 10px;
+    background: rgb(248, 229, 223);
+    background: linear-gradient(180deg, rgba(248, 229, 223, 1) 0%, rgba(255, 160, 65, 1) 100%);
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    overflow: auto; /* Agregamos la propiedad overflow */
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+  }
+  
+  .item-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+  }
+  
+  .item-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--color-text);
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .item-price {
+    margin-top: 5px;
+    font-size: 16px;
+    color:var(--color-principal);
+    font-family: 'Inter', sans-serif;
+    
+  }
+  
+  .item-quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .quantity-button {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: var(--color-principal); /* Color de fondo del botón */
+    color: white; /* Color de texto del botón */
+    border-radius: 50%; /* Puntas redondeadas del botón */
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    margin-top: 10px; /* Espacio superior */
+    background-color: var(--color-principal); /* Color de fondo  */
+    color: white; /* Color de texto */
+    border: none; /* Sin borde */
+    border-radius: 50px; /* Puntas redondeadas  */
+    text-align: center; /* Centra el texto */
+    display: block; /* Hace que el botón ocupe todo el ancho disponible */
+    margin-left: auto; /* Centra el botón horizontalmente */
+    margin-right: auto; /* Centra el botón horizontalmente */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); /* Agregamos la sombra con desenfoque en el eje y */
+    font-family: 'Jockey One', sans-serif;
+  }
+  
+  /* Estilo adicional boton1 pasos del carrito */
+  .btn-primary.rounded-circle1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: var(--color-tercero);
+    border: none;
+    position: relative; /* Aseguramos que el botón sea un elemento posicionado */
+  }
+  .btn-primary.rounded-circle1::before {
+    content: ""; /* Agregamos un elemento pseudo ::before para crear la línea */
+    position: absolute; /* Posicionamos el elemento de forma absoluta con respecto al botón */
+    top: calc(50% - 2.5px); /* Ajustamos la posición vertical de la línea */
+    left: -0px; /* Desplazamos la línea hacia la izquierda */
+    width: 150px; /* Ancho de la línea */
+    height: 5px; /* Altura de la línea */
+    background-color: var(--color-tercero); /* Color de la línea */
+    z-index: -1; /* Asegura que la línea esté detrás del contenido del botón */
+  }
+  /* Estilo adicional boton2 pasos del carrito */
+  .btn-primary.rounded-circle2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: var(--color-tercero);
+    border: none;
+    position: relative; /* Aseguramos que el botón sea un elemento posicionado */
+  }
+  .btn-primary.rounded-circle2::before {
+    content: ""; /* Agregamos un elemento pseudo ::before para crear la línea */
+    position: absolute; /* Posicionamos el elemento de forma absoluta con respecto al botón */
+    top: calc(50% - 2.5px); /* Ajustamos la posición vertical de la línea */
+    right: -5px; /* Desplazamos la línea hacia la izquierda */
+    width: 150px; /* Ancho de la línea */
+    height: 5px; /* Altura de la línea */
+    background-color: var(--color-tercero); /* Color de la línea */
+    z-index: -1; /* Asegura que la línea esté detrás del contenido del botón */
+  }
+  /* Estilo adicional boton1 pasos del carrito */
+  .btn-primary.rounded-circle3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: var(--color-tercero);
+    border: none;
+    position: relative; /* Aseguramos que el botón sea un elemento posicionado */
+  }
+  .btn-primary.rounded-circle3::before {
+    content: ""; /* Agregamos un elemento pseudo ::before para crear la línea */
+    position: absolute; /* Posicionamos el elemento de forma absoluta con respecto al botón */
+    top: calc(50% - 2.5px); /* Ajustamos la posición vertical de la línea */
+    right: -0px; /* Desplazamos la línea hacia la izquierda */
+    width: 150px; /* Ancho de la línea */
+    height: 5px; /* Altura de la línea */
+    background-color: var(--color-tercero); /* Color de la línea */
+    z-index: -1; /* Asegura que la línea esté detrás del contenido del botón */
+  }
+  .btn-title{
+    color: var(--color-text);
+    font-size: var(--texto-h3);
+    font-family: 'Hahmlet', serif;
+  }
+  
+  .spaced-buttons {
+    gap: 60px;
+   } 
+  /* Estilos adicionales para la sección del carrito */
+  .cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .title-left {
+    font-size: var(--texto-h2);
+    margin: 0;
+    color: var(--color-text);
+    font-family: 'Hahmlet', serif;
+  }
+
+  .title-car{
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .btn-transparent {
+    background: transparent;
+    border: none;
+    color: var(--color-principal);
+    font-size: var(--texto-h3);
+    cursor: pointer;
+    font-family: 'Hahmlet', serif;
+  }
+  
+  .total-price {
+    font-size: var(--texto-h2);
+    color: var(--color-text);
+    font-family: 'Hahmlet', serif;
+  }
+  .moneyclp {
+    padding: 80px;
+  }
+  .price {
+    padding: 0px;
+  }
+  
+  /* Barra desplazamiento cart-contenedor */
+  
+  .cart-contenedor {
+    /* Resto de estilos... */
+    overflow: auto; /* Asegúrate de que el contenedor tenga scroll */
+    
+  }
+  
+  /* Estilos para la barra de desplazamiento scroll */
+  .cart-contenedor::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+    height: 10em;
+    border-radius: 4px; /* Estilo curvo */
+    background-color: none; /* Color de fondo */
+  }
+  
+  .cart-contenedor::-webkit-scrollbar-thumb {
+    border-radius: 5px; /* Estilo curvo del pulgar */
+    background-color: var(--color-tercero); /* Color del pulgar */
+  }
+  
+  .cart-contenedor::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-segundo); /* Color del pulgar al pasar el cursor */
+  }
+  
+  .cart-summary{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 20px;
+    color: var(--color-text);
+  }
+  .total-quantity{
+    margin-left: 10px;
+    color: var(--color-text);
+    font-size: var(--texto-h3);
+    font-family: 'Hahmlet', serif;
+  }
+  
+  /* BOTON ATRAS */
+  
+  .btn-custom:active {
+    width: 42px;
+    height: 42px;
+    background-color: #FFA041;
+    border: none;
+    border-radius: 25%;
+    font-size: 18px;
+  
+  }
+  
+  .btn-custom .fas {
+    margin-right: 2px;
+  }
+  
+  .fa-arrow-left{
+    color: var(--color-segundo);
+  }
+  
+  .texto-centrado{
+    font-size: var(--texto-h1);
+    color: var(--color-text);
+    font-family: 'Italianno', cursive;
+  }
+  
+/*paso 3 carrito*/
+
+  .check{
+    margin-top:10px;
+    
+    
+}
+  p.inicio{
+    font-family: 'Hahmlet', serif;
+    
+}
+  .gracias{
+    font-family: 'Italianno', cursive;
+    font-size: 48px;
+    color: var(--color-text);
+    
+}
+.gracias{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/*paso 2 carrito*/
+.t2{
+  justify-content: center;
+  font-family: 'Hahmlet', serif;
+
+}
