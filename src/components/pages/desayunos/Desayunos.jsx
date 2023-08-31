@@ -1,5 +1,6 @@
-import Footer from '../Footer/Footer';
-import NavBarPage from '../navbar/NavBarPage';
+import Footer from '../footer/Footer';
+import NavBarPage from "../navbar/NavBarPage";
+
 import CarruselDesayunos from './CarruselDesayunos';
 import './desayunos.css';
 import { Link } from "react-router-dom"

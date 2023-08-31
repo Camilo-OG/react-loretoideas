@@ -1,9 +1,9 @@
-import Footer from '../Footer/Footer';
-import NavBarPage from "../Navbar/NavBarPage";
+import Footer from '../footer/Footer';
+import NavBarPage from "../navbar/NavBarPage";
 
 import CarruselCocteleria from './Carrusel-cocteleria';
-import '../cocteleria/cocteleria.css';
-import BotonWsp from '../../Wsp/BotonWsp';
+import './cocteleria.css';
+import BotonWsp from '../../wsp/BotonWsp';
 
 
 

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import "../Detalles/Detalles.css";
+import "../detalles/Detalles.css";
 import Modal from "react-bootstrap/Modal";
 import "../productos/productos.css";
 import "bootstrap/dist/css/bootstrap.min.css";
