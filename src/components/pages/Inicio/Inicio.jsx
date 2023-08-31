@@ -3,6 +3,7 @@ import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import './Inicio.css'
 import Footer from "../footer/Footer"
+
 import NavBarPage from "../navbar/NavBarPage";
 
 import { Link } from "react-router-dom";

@@ -1,4 +1,5 @@
 import Footer from "../footer/Footer"
+
 import NavBarPage from "../navbar/NavBarPage";
 
 import CarruselCocteleria from './Carrusel-cocteleria';
