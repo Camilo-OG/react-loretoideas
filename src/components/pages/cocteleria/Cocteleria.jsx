@@ -1,5 +1,6 @@
 import Footer from '../Footer/Footer';
-import NavBarPage from '../navbar/NavBarPage';
+import NavBarPage from "../Navbar/NavBarPage";
+
 import CarruselCocteleria from './Carrusel-cocteleria';
 import '../cocteleria/cocteleria.css';
 import BotonWsp from '../../Wsp/BotonWsp';
