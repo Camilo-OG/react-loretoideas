@@ -2,10 +2,8 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import './Inicio.css'
-import Footer from "../../../components/pages/footer/Footer"
-
-
-import NavBarPage from "../../pages/navbar/NavBarPage";
+import Footer from "../footer/Footer"
+import NavBarPage from "../navbar/NavBarPage";
 
 import { Link } from "react-router-dom";
 import CarruselBanner from "./CarruselBanner";

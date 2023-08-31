@@ -3,10 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import BotonesProductos from "./BotonesProductos"
 import BannerProductos from "./BannerProductos"
 
-import Footer from "../../../components/pages/footer/Footer"
-
+import Footer from "../footer/Footer"
+import NavBarPage from "../navbar/NavBarPage";
 import { Link } from "react-router-dom"
-import NavBarPage from "../../pages/navbar/NavBarPage";
+
 
 function Productos () {
   return (

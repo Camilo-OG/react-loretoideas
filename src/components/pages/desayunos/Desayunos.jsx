@@ -1,7 +1,5 @@
-import Footer from "../../../components/pages/footer/Footer"
-
-
-import NavBarPage from "../../pages/navbar/NavBarPage";
+import Footer from "../footer/Footer"
+import NavBarPage from "../navbar/NavBarPage";
 
 import CarruselDesayunos from './CarruselDesayunos';
 import './desayunos.css';
